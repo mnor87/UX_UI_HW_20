@@ -104,6 +104,50 @@ footer {
   font-size: 24px;
 }
 
+.donut {
+  grid-area: donut;
+}
+
+.userPersona img {
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 0%;
+}
+
+.featurePrioritization img {
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.userFlow img {
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 5%;
+
+}
+
+.sketches img {
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 0%;
+  padding-bottom: 5%;
+}
+
+.lofiWireframes img {
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 0%;
+  padding-bottom: 5%;
+}
+
+.analysisContainer {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+  "prototype mockup"
+
+}
 
 
 .prototype img, .mockup {
@@ -117,38 +161,7 @@ footer {
   "prototype mockup"
 }
 
-.featurePrioritization img {
-  width: 80%;
-}
-
-.userFlow img {
-  width: 80%;
-
-}
-
-
-.analysisContainer {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-areas:
-  "prototype mockup"
-
-}
-
-
-}
-.chart {
-  grid-area: chart;
-}
-
-
-.donut {
-  grid-area: donut;
-}
-
-.analysisContainer img, .userPersona img {
+.prototype img {
   width: 100%;
-
+  height: auto;
 }
-
-
