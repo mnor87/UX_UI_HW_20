@@ -19,7 +19,7 @@
 }
 
 .heroBackground {
-  background-image: url(../images/hw20-hero.png);
+  background-image: url(../images/hw20-hero.png) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
