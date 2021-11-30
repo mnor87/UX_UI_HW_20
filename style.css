@@ -18,8 +18,8 @@
   padding-left: 1%;
 }
 
-.jumobotron heroBackground {
-  background-image: url(../images/hw20-hero.png) !important;
+.heroBackground {
+  background-image: url(../images/hw20-hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
